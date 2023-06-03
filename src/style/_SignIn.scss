@@ -1,0 +1,65 @@
+.signin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+
+
+  .signin-logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+
+  .logo-icon {
+    font-size: 48px;
+    color: green;
+
+    h1 {
+      margin-left: 10px;
+    }
+
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    input {
+      margin-bottom: 10px;
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      width: 100%;
+    }
+
+  }
+}
+
+
+
+//breakpoints
+@media (max-width: 576px) {
+  /* CSS rules specific to extra small devices */
+}
+
+/* Styles for small devices */
+@media (min-width: 576px) {
+  /* CSS rules specific to small devices */
+}
+
+/* Styles for medium devices */
+@media (min-width: 768px) {
+  /* CSS rules specific to medium devices */
+}
+
+@media (min-width: 992px) {
+  /* CSS rules specific to large devices */
+}
+
+/* Styles for extra large devices */
+@media (min-width: 1200px) {
+  /* CSS rules specific to extra large devices */
+}
+

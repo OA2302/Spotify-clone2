@@ -1,19 +1,19 @@
 import React, { useState } from 'react';
 import { FaSpotify } from 'react-icons/fa';
 import { Link} from 'react-router-dom';
-import './Signup.css';
+
 
 
 function Signup() {
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
     const [confirmPassword, setConfirmPassword] = useState("");
-    const history = useHistory();
+    // const history = useHistory();
   
    const handleSubmit = (event) => {
       event.preventDefault();
       // TODO: Add logic to create new user
-      history.push("/");
+      // history.push("/");
     };
   
     return (
@@ -28,7 +28,7 @@ function Signup() {
           <input type="password" placeholder="Confirm Password" value={confirmPassword} onChange={(e) => setConfirmPassword(e.target.value)} />
           <button type="submit">Sign up</button>
         </form>
-        <p>Already have an account? <Link to="/login">Log in</Link></p>
+        <p>Already have an account? <Link to="/auth/signin">Sign in</Link></p>
       </div>
     );
   }
