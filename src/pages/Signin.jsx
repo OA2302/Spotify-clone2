@@ -1,8 +1,8 @@
-import React from 'react';
+
 import { FaSpotify } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import './Signin.css';
-import Signup from './Signup';
+import Signup from './Signup.jsx';
 
 function Signin() {
     return (
