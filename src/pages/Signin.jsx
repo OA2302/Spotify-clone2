@@ -1,8 +1,7 @@
-import React from 'react';
+
 import { FaSpotify } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
-import './Signin.css';
-import Signup from './Signup';
+import Signup from './Signup.jsx';
 
 function Signin() {
     return (
@@ -16,7 +15,7 @@ function Signin() {
           <input type="password" placeholder="Password" />
           <button type="submit">Sign in</button>
         </form>
-        <p>Don't have an account? <Link to="/Signup">Sign up</Link></p>
+        <p>Don't have an account? <Link to="/">Sign up</Link></p>
       </div>
     );
   }
